@@ -3,6 +3,7 @@ title: Image Host
 sidebarTitle: Image Host
 description: Learn how to use image host
 icon: camera
+iconType: duotone
 ---
 
 <div className="mobile-only">
@@ -69,7 +70,7 @@ Check out the imagehost limits.
 </Steps>
 
 <Frame>
-  ![General Image Host Customization Interface](../images/imagehost_general_customization.png)
+  ![General Image Host Customization Interface](../assets/images/imagehost_general_customization.png)
 </Frame>
 
 <Tip>
@@ -91,13 +92,13 @@ Never share your API key with anyone — it could allow others to upload images 
 <Steps>
   <Step title="Locate Domain Manager Button">
     <Frame>
-      ![Domain Manager Button](../images/domain-manager-01.png)
+      ![Domain Manager Button](../assets/images/domain-manager-01.png)
     </Frame>
   </Step>
   <Step title="Domain Manager Interface">
     Here you can see all available domains for the image host.
     <Frame>
-      ![Domain Manager Button](../images/domain-manager-02.png)
+      ![Domain Manager Button](../assets/images/domain-manager-02.png)
     </Frame>
   </Step>
 </Steps>
@@ -122,7 +123,7 @@ If you’d like to suggest a domain, [join our Discord server](https://discord.g
     Choose the Visibility of your domain, then hit “Add Domain”.
 
     <Frame>
-      ![Domain Configuration Popup](../images/Domain-Config-popup.png)
+      ![Domain Configuration Popup](../assets/images/Domain-Config-popup.png)
     </Frame>
   </Step>
 
@@ -131,19 +132,19 @@ If you’d like to suggest a domain, [join our Discord server](https://discord.g
     For this exemple i will use Cloudflare but your domain provider dashboard works the same.
 
     <Frame>
-      ![Cloudflare DNS Records](../images/cloudflarednsrecords.png)
+      ![Cloudflare DNS Records](../assets/images/cloudflarednsrecords.png)
     </Frame>
 
     Here click “Add record” then change the Record type to CNAME, put the name the “Domain Configuration” pop-up gave you and put the Value in the target box un check the proxied option in “Proxy status” and put it to “DNS only” for it to work. Then it save.
 
     <Frame>
-      ![Add DNS Record](../images/domain-linker-add-record.png)
+      ![Add DNS Record](../assets/images/domain-linker-add-record.png)
     </Frame>
 
     After this go back to your image-host dashboard and open back the pop-up by clicking “Open DNS Setup” in “Your Domains”.
 
     <Frame>
-      ![Waiting for DNS Setup](../images/YourDomains-List-WaitingForDNSsetup.png)
+      ![Waiting for DNS Setup](../assets/images/YourDomains-List-WaitingForDNSsetup.png)
     </Frame>
   </Step>
 
@@ -151,19 +152,19 @@ If you’d like to suggest a domain, [join our Discord server](https://discord.g
     Now press the “Verify Domain” button.
 
     <Frame>
-      ![Verify Domain Button](../images/VerifyDomainButtonList.png)
+      ![Verify Domain Button](../assets/images/VerifyDomainButtonList.png)
     </Frame>
 
     If you see this then you're good to go !
 
     <Frame>
-      ![Domain Linked Successfully](../images/YourDomains-List-Completed.png)
+      ![Domain Linked Successfully](../assets/images/YourDomains-List-Completed.png)
     </Frame>
 
     However if you got any error then please double check if u use Cloudflare that the record is DNS only and not proxied.
 
     <Frame>
-      ![DNS Record DNS Only](../images/dns-record.png)
+      ![DNS Record DNS Only](../assets/images/dns-record.png)
     </Frame>
 
     If it is DNS only and not proxied then you have to wait for the DNS propagation.  
@@ -171,7 +172,7 @@ If you’d like to suggest a domain, [join our Discord server](https://discord.g
     Choose CNAME, put your DNS record name and hit Search.
 
     <Frame>
-      ![DNS Checker](../images/dns-checker.png)
+      ![DNS Checker](../assets/images/dns-checker.png)
     </Frame>
   </Step>
 </Steps>
@@ -220,7 +221,7 @@ Every time you regenerate your API key, you need to either download the configur
 Open the downloaded **.sxcu** file.
 
 <Frame>
-  ![Config File](../images/sharex-01.png)
+  ![Config File](../assets/images/sharex-01.png)
 </Frame>
 </Step>
 
@@ -228,7 +229,7 @@ Open the downloaded **.sxcu** file.
 A confirmation dialog will appear. Click **Yes** to import the config.
 
 <Frame>
-  ![Custom uploader confirmation](../images/sharex-02.png)
+  ![Custom uploader confirmation](../assets/images/sharex-02.png)
 </Frame>
 </Step>
 
@@ -236,7 +237,7 @@ A confirmation dialog will appear. Click **Yes** to import the config.
 That's it! You can now take screenshots using the keyboard shortcuts listed on the start page.
 
 <Frame>
-  ![Keyboard Shortcuts](../images/sharex-03.png)
+  ![Keyboard Shortcuts](../assets/images/sharex-03.png)
 </Frame>
 </Step>
 
@@ -250,7 +251,7 @@ That's it! You can now take screenshots using the keyboard shortcuts listed on t
 Enable **"Upload image to host"** under **After capture tasks**.
 
 <Frame>
-  ![After capture tasks](../images/sharex-04.png)
+  ![After capture tasks](../assets/images/sharex-04.png)
 </Frame>
 </Step>
 
@@ -258,7 +259,7 @@ Enable **"Upload image to host"** under **After capture tasks**.
 Enable **"Copy URL to clipboard"** under **After upload tasks**.
 
 <Frame>
-  ![After upload tasks](../images/sharex-05.png)
+  ![After upload tasks](../assets/images/sharex-05.png)
 </Frame>
 </Step>
 
@@ -266,7 +267,7 @@ Enable **"Copy URL to clipboard"** under **After upload tasks**.
 Go to **Destinations → Image uploader** and make sure **Custom image uploader** is selected.
 
 <Frame>
-  ![Destinations settings](../images/sharex-06.png)
+  ![Destinations settings](../assets/images/sharex-06.png)
 </Frame>
 </Step>
 
@@ -274,7 +275,7 @@ Go to **Destinations → Image uploader** and make sure **Custom image uploader*
 Open **Custom uploader settings**
 
 <Frame>
-  ![Custom uploader settings button](../images/sharex-07.png)
+  ![Custom uploader settings button](../assets/images/sharex-07.png)
 </Frame>
 </Step>
 
@@ -283,7 +284,7 @@ Make sure **haunt.gg - image host** appears in the list on the left, and the API
 
 
 <Frame>
-  ![Custom uploader settings](../images/sharex-08.png)
+  ![Custom uploader settings](../assets/images/sharex-08.png)
 </Frame>
 </Step>
 
@@ -299,7 +300,7 @@ Make sure **haunt.gg - image host** appears in the list on the left, and the API
 Download the latest **iShare** version [here](https://github.com/itoolio/ishare/releases).
 
 <Frame>
-  ![Download iShare](../images/ishare-01.png)
+  ![Download iShare](../assets/images/ishare-01.png)
 </Frame>
 </Accordion>
 
@@ -317,7 +318,7 @@ Open iShare and go to **Uploaders**, then click **Import**.
 Drag the downloaded **.iscu** file into the import box.
 
 <Frame>
-  ![Import Custom Uploader Interface](../images/ishare-02.png)
+  ![Import Custom Uploader Interface](../assets/images/ishare-02.png)
 </Frame>
 </Step>
 
@@ -325,7 +326,7 @@ Drag the downloaded **.iscu** file into the import box.
 That's it! You can now take screenshots using the keyboard shortcuts listed on the start page.
 
 <Frame>
-  ![Keyboard Shortcuts](../images/ishare-03.png)
+  ![Keyboard Shortcuts](../assets/images/ishare-03.png)
 </Frame>
 </Step>
 
@@ -339,7 +340,7 @@ That's it! You can now take screenshots using the keyboard shortcuts listed on t
 At the top of your desktop, locate the image icon. Make sure that under **Post Media Tasks**, **Upload Media** is enabled.
 
 <Frame>
-  ![After capture tasks](../images/ishare-04.png)
+  ![After capture tasks](../assets/images/ishare-04.png)
 </Frame>
 </Step>
 
@@ -347,7 +348,7 @@ At the top of your desktop, locate the image icon. Make sure that under **Post M
 Under **Upload destination**, make sure **haunt.gg - image host** is selected.
 
 <Frame>
-  ![After upload tasks](../images/ishare-05.png)
+  ![After upload tasks](../assets/images/ishare-05.png)
 </Frame>
 </Step>
 
@@ -381,7 +382,7 @@ Tap the blue **"+"** button — now your shortcut is ready! It will automaticall
 </Steps>
 
 <Frame>
-![Setup iOS imagehost shortcut](../images/shortcuts-01.png)
+![Setup iOS imagehost shortcut](../assets/images/shortcuts-01.png)
 </Frame><br/><br/>
 
 <Accordion title="Add Shortcut to Control Center">
@@ -403,7 +404,7 @@ You can now place the shortcut wherever you like in your Control Center.
 </Steps>
 
 <Frame>
-![Add shortcut to control center](../images/shortcuts-02.png)
+![Add shortcut to control center](../assets/images/shortcuts-02.png)
 </Frame>
 
 </Accordion>
@@ -427,7 +428,7 @@ You can now upload images directly via the iOS share sheet.
 </Steps>
 
 <Frame>
-![Show in Share-Sheet](../images/shortcuts-03.png)
+![Show in Share-Sheet](../assets/images/shortcuts-03.png)
 </Frame>
 
 </Accordion>
@@ -451,7 +452,7 @@ Tap **"Clipboard"**. Now, the shortcut will use the image from your clipboard �
 </Steps>
 
 <Frame>
-![Upload image in clipboard](../images/shortcuts-04.png)
+![Upload image in clipboard](../assets/images/shortcuts-04.png)
 </Frame>
 
 </Accordion>
@@ -513,7 +514,7 @@ chmod +x haunt.gg_config.sh
 ```
 
 <Frame>
-  ![Make Flameshot script executable](../images/flameshot-01.png)
+  ![Make Flameshot script executable](../assets/images/flameshot-01.png)
 </Frame>
 </Step>
 
@@ -556,7 +557,7 @@ Run the script to test if everything works:
 The Flameshot GUI should open, allowing you to take a screenshot. After capturing, the image URL will be copied to your clipboard, and you'll see a notification.
 
 <Frame>
-  ![Test Flameshot script](../images/flameshot-02.png)
+  ![Test Flameshot script](../assets/images/flameshot-02.png)
 </Frame>
 </Step>
 
@@ -693,7 +694,7 @@ Visit [Setup upload clients](https://help.haunt.gg/guides/imagehost#setup-upload
     Open the file you just downloaded.
 
     <Frame>
-    ![ShareX Overlay File](../images/sharex-overlay-01.png)
+    ![ShareX Overlay File](../assets/images/sharex-overlay-01.png)
     </Frame>
 
   </Step>
@@ -706,7 +707,7 @@ Visit [Setup upload clients](https://help.haunt.gg/guides/imagehost#setup-upload
 </Steps>
 
 <Frame>
-  ![ShareX Overlay Example](../images/sharex-overlay-example.png)
+  ![ShareX Overlay Example](../assets/images/sharex-overlay-example.png)
 </Frame>
 
 <Tip>
@@ -714,7 +715,7 @@ You can download multiple overlays and switch between them easily.
 Just open ShareX, go to **After capture tasks → Add image effects**.
 
 <Frame>
-  ![ShareX After capture tasks](../images/sharex-overlay-02.png)
+  ![ShareX After capture tasks](../assets/images/sharex-overlay-02.png)
 </Frame>
 </Tip>
 
@@ -732,7 +733,7 @@ Just open ShareX, go to **After capture tasks → Add image effects**.
 </Steps>
 
 <Frame>
-  ![Embed Settings Interface](../images/imagehost_embed_settings.png)
+  ![Embed Settings Interface](../assets/images/imagehost_embed_settings.png)
 </Frame>
 
 <Info>
@@ -756,7 +757,7 @@ At the bottom of the section, you’ll find variables you can use in your embed.
         Your file is now uploaded! You can copy and share the link.
 
         <Frame>
-          ![Image Host Upload Interface](../images/imagehost_upload.png)
+          ![Image Host Upload Interface](../assets/images/imagehost_upload.png)
         </Frame>
       </Step>
     </Steps>
@@ -780,7 +781,7 @@ At the bottom of the section, you’ll find variables you can use in your embed.
     Click the **"Create Folder"** button to create a new folder.
 
     <Frame>
-      ![Create Folder Interface](../images/folders-02.png)
+      ![Create Folder Interface](../assets/images/folders-02.png)
     </Frame>
   </Step>
   <Step title="Name Folder">
@@ -793,14 +794,14 @@ At the bottom of the section, you’ll find variables you can use in your embed.
     Your folder is now created! You can move images into this folder from the gallery.
 
     <Frame>
-      ![Move file into folder interface](../images/folders-03.png)
+      ![Move file into folder interface](../assets/images/folders-03.png)
     </Frame>
     
   </Step>
 </Steps>
 
     <Frame>
-      ![Image Host Folders Interface](../images/folders-01.png)
+      ![Image Host Folders Interface](../assets/images/folders-01.png)
     </Frame>
 
 ### Automations
@@ -820,7 +821,7 @@ When you upload a file with a name that contains the trigger, it will automatica
     Click **Create Rule** at the top right and enter the trigger and the folder. 
 
     <Frame>
-      ![Create Rule Interface](../images/folders-04.png)
+      ![Create Rule Interface](../assets/images/folders-04.png)
     </Frame>
   </Step>
   <Step title="Done">
@@ -837,7 +838,7 @@ When you upload a file with a name that contains the trigger, it will automatica
     Visit [haunt.gg/dashboard/imagehost/gallery](https://haunt.gg/dashboard/imagehost/gallery).
 
     <Frame>
-      ![Image Host Gallery Interface](../images/imagehost_gallery.png)
+      ![Image Host Gallery Interface](../assets/images/imagehost_gallery.png)
     </Frame>
   </Step>
 </Steps>

@@ -3,6 +3,7 @@ title: Profile Badges
 sidebarTitle: Profile Badges
 description: Learn how to create and use custom badges on haunt.gg
 icon: badge-check
+iconType: duotone
 ---
 
 <div className="mobile-only">
@@ -39,7 +40,7 @@ View a list of all badges that exist on haunt.gg.
 </Steps>
 
 <Frame>
-  ![Badge Customization Interface](../images/badge-customization.png)
+  ![Badge Customization Interface](../assets/images/badge-customization.png)
 </Frame>
 
 ---
@@ -61,7 +62,7 @@ View a list of all badges that exist on haunt.gg.
 
 <Frame>
   ![Badge Color Customization
-  Interface](../images/badge-color-customization.png)
+  Interface](../assets/images/badge-color-customization.png)
 </Frame>
 
 <Steps>
@@ -75,11 +76,11 @@ View a list of all badges that exist on haunt.gg.
 
 <Frame>
   ![Badge Color Customization
-  Interface](../images/badge-specific-color-customization1.png)
+  Interface](../assets/images/badge-specific-color-customization1.png)
 </Frame>
 <Frame>
   ![Badge Color Customization
-  Interface](../images/badge-specific-color-customization.png)
+  Interface](../assets/images/badge-specific-color-customization.png)
 </Frame>
 
 <Note>
@@ -105,7 +106,7 @@ View a list of all badges that exist on haunt.gg.
 </Steps>
 
 <Frame>
-  ![Badge Card Customization Interface](../images/badge-card-customization.png)
+  ![Badge Card Customization Interface](../assets/images/badge-card-customization.png)
 </Frame>
 
 <Note>
@@ -119,40 +120,42 @@ View a list of all badges that exist on haunt.gg.
 
 ### Owner Badge
 
-<Frame caption="The owner badge is a badge that is given to the owner of haunt.gg.">
-  ![Owner Badge](../images/owner-badge.png)
+<Frame caption="The owner badge is a badge that is given to the owners of haunt.gg.">
+  <Badge icon="/assets/badges/owner.svg" color="purple">Owner</Badge>
 </Frame>
 
 ### Manager Badge
 
-<Frame caption="The manager badge is a badge that is given to the manager of haunt.gg.">
-  ![Manager Badge](../images/manager-badge.png)
+<Frame caption="The manager badge is a badge that is given to managers of haunt.gg.">
+  <Badge icon="/assets/badges/manager.svg" color="red">Manager</Badge>
 </Frame>
 
 ### Staff Badge
 
-<Frame caption="The staff badge is a badge that is given to the staff of haunt.gg.">
-  ![Staff Badge](../images/staff-badge.png)
+<Frame caption="The staff badge is a badge that is given to staff members of haunt.gg.">
+  <Badge icon="/assets/badges/staff.svg" color="blue">Staff</Badge>
 </Frame>
 
 <Note>
-  You can apply to become a staff member [here](https://discord.gg/hauntbio).
+  You can apply to become a staff member during active apply phases [here](https://discord.gg/hauntbio).
 </Note>
 
 ### Helper Badge
 
 <Frame caption="The helper badge is a badge that is given to the helper of haunt.gg.">
-  ![Helper Badge](../images/helper-badge.png)
+  <Badge icon="/assets/badges/helper.svg" color="orange">Helper</Badge>
 </Frame>
 
 <Note>
-  Helpers will be handpicked by the owner & managers. To be a helper, you should be Active in the server and Help members in ⁠[support](https://discord.com/channels/1363890885443452989/1430903000028811324).
+  Helpers will be handpicked by the owner & managers. To be a helper, you should be active in the server and Help members in ⁠[support](https://discord.com/channels/1363890885443452989/1430903000028811324).
 </Note>
+
+---
 
 ### OG Badge
 
 <Frame caption="The OG badge is a badge that is given to the original members of haunt.gg.">
-  ![OG Badge](../images/og-badge.png)
+  <Badge icon="/assets/badges/og.svg" color="yellow">OG</Badge>
 </Frame>
 
 <Note>This badge is no longer available to new users.</Note>
@@ -160,7 +163,7 @@ View a list of all badges that exist on haunt.gg.
 ### Verified Badge
 
 <Frame caption="The verified badge is a badge that is given to users who have been verified by haunt.gg.">
-  ![Verified Badge](../images/verified-badge.png)
+  <Badge icon="/assets/badges/verified.svg" color="blue">Verified</Badge>
 </Frame>
 
 <Note>
@@ -171,106 +174,165 @@ View a list of all badges that exist on haunt.gg.
 ### Bug Hunter Badge
 
 <Frame caption="The bug hunter badge is a badge that is given to users who have reported bugs to haunt.gg.">
-  ![Bug Hunter Badge](../images/bughunter-badge.png)
+  <Badge icon="/assets/badges/bug-hunter.svg" color="green">Bug Hunter</Badge>
 </Frame>
 
 <Note>
-  You can report bugs [here](https://discord.gg/hauntbio) or via
-  [email](mailto:support@haunt.gg).
+  You can report bugs [here](https://haunt.gg/dashboard/apply/d9d3a472-dc6f-479d-8ded-40e272698a73) (preferred) or via [Discord](https://discord.gg/hauntbio).
 </Note>
 
-### Donor Badge
+### Donator Badge
 
-<Frame caption="The donor badge is a badge that is given to users who have donated to haunt.gg.">
-  ![Donor Badge](../images/donator-badge.png)
+<Frame caption="The donor badge is a badge that is given to users who have spent money on haunt.gg (multiple tiers).">
+  <Badge icon="/assets/badges/donator/donator.svg" color="green">Donator</Badge>
 </Frame>
 
-<Note>You can purchase a donator badge [here](https://haunt.gg/pricing#donator).</Note>
+<AccordionGroup>
+<Accordion title="Fortune (50€)">
+  <Frame caption="The donor badge is a badge that is given to users who have spent at least 50€ on haunt.gg.">
+    <Badge icon="/assets/badges/donator/fortune.svg" color="surface-destructive">Fortune</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Solar (100€)">
+  <Frame caption="The donor badge is a badge that is given to users who have spent at least 100€ on haunt.gg.">
+    <Badge icon="/assets/badges/donator/solar.svg" color="surface">Solar</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Void (250€)">
+  <Frame caption="The donor badge is a badge that is given to users who have spent at least 250€ on haunt.gg.">
+    <Badge icon="/assets/badges/donator/void.svg" color="surface">Void</Badge>
+  </Frame>
+</Accordion>
+</AccordionGroup>
 
 ### Premium Badge
 
 <Frame caption="The premium badge is a badge that is given to users who have a premium subscription.">
-  ![Premium Badge](../images/premium-badge.png)
+  <Badge icon="/assets/badges/premium.svg" color="purple">Premium</Badge>
 </Frame>
 
 <Note>
   You can purchase a premium subscription [here](https://haunt.gg/pricing#premium).
 </Note>
 
-### Server Booster Badge
+### Champion Badge
+
+<Frame caption="The Champion Badge is a badge that is given to users who take place in the top 10 of the leaderboard.">
+  <Badge icon="/assets/badges/champion.svg" color="yellow">Champion</Badge>
+</Frame>
+
+<Note>
+  You can see the [leaderboard](https://haunt.gg/leaderboard) here.
+</Note>
+
+### Booster Badge
 
 <Frame caption="The server booster badge is a badge that is given to users who have boosted our discord server.">
-  ![Server Booster Badge](../images/booster-badge.png)
+  <Badge icon="/assets/badges/discord/booster.svg" color="orange">Booster</Badge>
 </Frame>
 
 <Note>You can boost our server [here](https://discord.gg/hauntbio).</Note>
 
-### Beta Badge
+### Event Badges
 
-<Frame caption="The beta badge is a badge that is given to users who are part of the beta testing program.">
-  ![Beta Badge](../images/beta-badge.png)
-</Frame>
+<AccordionGroup>
+<Accordion title="Winner">
+  <Frame caption="The winner badge is given to anyone who won an event.">
+    <Badge icon="/assets/badges/event/winner.svg" color="yellow">Winner</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Second Place">
+  <Frame caption="The second place badge is given to anyone who came in second place in an event.">
+    <Badge icon="/assets/badges/event/second.svg" color="gray">Second Place</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Third Place">
+  <Frame caption="The third place badge is given to anyone who came in third place in an event.">
+    <Badge icon="/assets/badges/event/third.svg" color="orange">Third Place</Badge>
+  </Frame>
+</Accordion>
+</AccordionGroup>
 
-<Note>This badge is no longer available to new users.</Note>
+### View Badges (Tiers)
 
-### Innovator Badge
+<AccordionGroup>
+<Accordion title="Noticed">
+  <Frame caption="This badge is given for  reaching 100 views.">
+    <Badge icon="/assets/badges/views/noticed.svg" color="surface">Noticed</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Viral">
+  <Frame caption="This badge is given for  reaching 1,000 views.">
+    <Badge icon="/assets/badges/views/viral.svg" color="surface">Viral</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="All Eyes on Me">
+  <Frame caption="This badge is given for  reaching 2,500 views.">
+    <Badge icon="/assets/badges/views/all-eyes.svg" color="surface">All Eyes on Me</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Main Character">
+  <Frame caption="This badge is given for  reaching 5,000 views.">
+    <Badge icon="/assets/badges/views/main-character.svg" color="surface">Main Character</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Famous">
+  <Frame caption="This badge is given for  reaching 10,000 views.">
+    <Badge icon="/assets/badges/views/famous.svg" color="surface">Famous</Badge>
+  </Frame>
+</Accordion>
+</AccordionGroup>
 
-<Frame caption="The innovator badge is a badge that is given to users who have suggested features to help improve our platform.">
-  ![Innovator Badge](../images/innovator-badge.png)
-</Frame>
+### Like Badges (Tiers)
 
-<Note>
-  You can suggest features [here](https://discord.gg/hauntbio) or via
-  [email](mailto:support@haunt.gg).
-</Note>
-
-### Contributor Badge
-
-<Frame caption="The contributor badge is a badge that is given to users who have contributed to our platform.">
-  ![Contributor Badge](../images/contributor-badge.png)
-</Frame>
-
-<Note>
-  You can contribute content to our
-  [documentation](https://github.com/curet-dev/docs) to earn this badge.
-</Note>
+<AccordionGroup>
+<Accordion title="Liked">
+  <Frame caption="This badge is given for  reaching 1 like.">
+    <Badge icon="/assets/badges/likes/liked.svg" color="surface">Liked</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Charming">
+  <Frame caption="This badge is given for  reaching 10 likes.">
+    <Badge icon="/assets/badges/likes/charming.svg" color="surface">Charming</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Beloved">
+  <Frame caption="This badge is given for  reaching 25 likes.">
+    <Badge icon="/assets/badges/likes/beloved.svg" color="surface">Beloved</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Heartthrob">
+  <Frame caption="This badge is given for  reaching 50 likes.">
+    <Badge icon="/assets/badges/likes/heartthrob.svg" color="surface">Heartthrob</Badge>
+  </Frame>
+</Accordion>
+<Accordion title="Iconic">
+  <Frame caption="This badge is given for  reaching 100 likes.">
+    <Badge icon="/assets/badges/likes/iconic.svg" color="surface">Iconic</Badge>
+  </Frame>
+</Accordion>
+</AccordionGroup>
 
 ### Domain Badge
 
 <Frame caption="The Domain Badge is a badge that is given to users who donate a domain to haunt.">
-  ![Domain Badge](../images/Domain-Badge.png)
+  <Badge icon="/assets/badges/domain.svg" color="blue">Domain</Badge>
 </Frame>
 
 <Note>
   You can donate a domain [here](https://haunt.gg/dashboard/imagehost/overview) to earn this badge.
 </Note>
 
-### Winner Badge
+### Gifter Badge
 
-<Frame caption="The winner badge is given to users who have won an event held by haunt.">
-  ![Winner Badge](../images/winner-badge.png)
+<Frame caption="Earned by gifting any product to another user.">
+  <Badge icon="/assets/badges/gifter.svg" color="red">Gifter</Badge>
 </Frame>
-
-### Second Place Badge
-
-<Frame caption="The second place badge is given to anyone who came in second place in an event held by haunt.">
-  ![Second Place Badge](../images/second-place-badge.png)
-</Frame>
-
-### Third Place Badge
-
-<Frame caption="The third place badge is given to anyone who came in third place in an event held by haunt.">
-  ![Third Place Badge](../images/third-place-badge.png)
-</Frame>
-
-<Note>
-  You can see when we host an event in our [Discord server](https://discord.gg/hauntbio) to earn any of these three badges.
-</Note>
 
 ### Inviter Badge
 
 <Frame caption="The inviter badge is awarded to users who refer 5 new members to haunt.gg using their affiliate link.">
-  ![Inviter Badge](../images/inviter-badge.png)
+  <Badge icon="/assets/badges/inviter.svg" color="surface">Inviter</Badge>
 </Frame>
 
 <Note>
@@ -279,16 +341,10 @@ View a list of all badges that exist on haunt.gg.
   earning rewards and help grow the community.
 </Note>
 
-### Gifter Badge
-
-<Frame caption="Earned by gifting any product to another user.">
-  ![Gifter Badge](../images/gifter-badge.png)
-</Frame>
-
 ### Image Host Badge
 
 <Frame caption="Earned by purchasing the Image Host storage extension">
-  ![Image Host Badge](../images/image-host-badge.png)
+  <Badge icon="/assets/badges/image-host.svg" color="pink">Image Host</Badge>
 </Frame>
 
 <Note>
@@ -298,38 +354,17 @@ View a list of all badges that exist on haunt.gg.
 ### Guild Tag Badge
 
 <Frame caption="Earned by using our discord server tag">
-  ![Guild Tag Badge](../images/guildtag-badge.png)
+  <Badge icon="/assets/badges/discord/guild-tag.svg" color="orange">Guild Tag</Badge>
 </Frame>
 
 <Note>
   You can join our Discord server [here](https://discord.gg/hauntbio).
 </Note>
 
-### Custom Badges
-
-<Frame caption="The custom badge is a badge that is given to users who have purchased a custom badge.">
-  ![Custom Badge](../images/custom-badge.png)
-</Frame>
-
-<Note>
-  When you purchase a [custom badge](https://haunt.gg/pricing#custom_badge), you can choose
-  your own icon and name for the badge.
-</Note>
-
-### Champion Badge
-
-<Frame caption="The Champion Badge is a badge that is given to users who take place in the top 10 of the leaderboard.">
-  ![Champion Badge](../images/champion-badge.png)
-</Frame>
-
-<Note>
-  You can see the [leaderboard](https://haunt.gg/leaderboard) here.
-</Note>
-
 ### Halloween Badge
 
 <Frame caption="The Halloween Badge is a badge that is given to users who claim it during its release.">
-  ![Halloween](../images/Halloween-Badge.png)
+  <Badge icon="/assets/badges/season/halloween.svg" color="orange">Halloween</Badge>
 </Frame>
 
 <Note>
@@ -339,19 +374,40 @@ View a list of all badges that exist on haunt.gg.
 ### Christmas Badge
 
 <Frame caption="The Christmas Badge is a badge that is given to users who claim it during its release.">
-  ![Christmas](../images/christmas-badge.png)
+  <Badge icon="/assets/badges/season/christmas.svg" color="red">Christmas</Badge>
 </Frame>
 
 <Note>
   Exclusive badge from the christmas sale.
 </Note>
 
+### Easter Badge
+
+<Frame caption="The Easter Badge is a badge that is given to users who claim it during its release.">
+  <Badge icon="/assets/badges/season/easter.svg" color="surface">Easter</Badge>
+</Frame>
+
+<Note>
+  Exclusive badge from the easter sale.
+</Note>
+
 ### Voter Badge
 
 <Frame caption="The Voter Badge is a badge that is given to users who vote in official haunt events.">
-  ![Voter Badge](../images/Voter-Badge.png)
+  <Badge icon="../assets/badges/voter.svg" color="yellow">Voter</Badge>
 </Frame>
 
 <Note>
   You can vote [here](https://haunt.gg/vote) when there is an ongoing event.
+</Note>
+
+### Custom Badges
+
+<Frame caption="The custom badge is a badge that is given to users who have purchased a custom badge.">
+  <Badge icon="question" color="surface">Custom</Badge>
+</Frame>
+
+<Note>
+  When you purchase a [custom badge](https://haunt.gg/pricing#custom_badge), you can choose
+  your own icon and name for the badge.
 </Note>

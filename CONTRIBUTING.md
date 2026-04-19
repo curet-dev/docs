@@ -21,8 +21,3 @@ We do our best to review pull requests as quickly as possible. Please keep in mi
 The owner (**curet**) or a collaborator (**xapnat**) will review your PR as soon as they have time.  
 We kindly ask that you avoid repeatedly asking about the status of your PR.
 
-### Contributor Badge
-
-The [Contributor Badge](https://help.haunt.gg/customization/badges#contributor-badge) on [haunt.gg](https://haunt.gg) is awarded to users who contribute to this documentation.  
-The badge is not given for every edit. It is reserved for more significant contributions, such as adding new guides.
-

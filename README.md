@@ -1,3 +1,7 @@
+# THIS REPOSITORY IS OUTDATED AND IS NO LONGER USED FOR HAUNT'S OFFICIAL DOCUMENTATION
+
+---
+
 # haunt.gg documentation
 
 This repository contains haunt.gg's documentation that can be found [here](https://help.haunt.gg/).

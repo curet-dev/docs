@@ -8,8 +8,8 @@
     "dark": "#D970A1"
   },
   "banner": {
-  "content": "We made some changes to our badges. [Check it out](../customization/badges)",
-  "dismissible": true
+  "content": "⚠ This documentation may contain outdated content, as it is no longer being updated. Haunt V2 will release soon with new documentation. Stay tuned, and join our [Discord server](https://discord.gg/hauntbio) for updates.",
+  "dismissible": false
   },
   "favicon": "/logo/favicon.png",
   "navigation": {
